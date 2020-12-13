@@ -1,0 +1,147 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+html, body {
+    background-color: #fff;
+    color: #636b6f;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+header{
+    font-family: 'Nunito', sans-serif;
+    height: 87vh;
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("/images/home.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main{
+    height: 80%;
+    width: 60%;
+    position: relative;
+    border: black 1px solid;
+}
+.cultivo{
+    // background-color: brown;
+    height: 100%;
+    width: 100%;
+    border: gray 10px solid;
+    position: absolute;
+    background: linear-gradient(
+    90deg,
+    #743c0f 1.33%,
+    #4b270b 13.33%,
+    #743c0f 16.66%,
+    #4b270b 23%,
+
+    #4b270b 30.33%,
+    #743c0f 33.33%,
+    #4b270b 40.33%,
+    
+
+    #4b270b 47.33%,
+    #743c0f 50%,
+    #4b270b 56%,
+
+    #4b270b 63.33%,
+    #743c0f 66.66%,
+    #4b270b 73%,
+
+    #4b270b 80%,
+    #743c0f 83.33%,
+    #4b270b 93%,
+
+    #4b270b 100%,
+   
+  );
+  
+//     background: repeating-linear-gradient(
+//     90deg,
+//     red ,
+//     blue 40px,
+//     green 40px,
+//     white 80px
+//   );
+}
+.cultivo2{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: white;
+    opacity:.1;
+  background-size: 100% 1.2em;
+  background-image: -webkit-linear-gradient(0deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px), -webkit-linear-gradient(#eee .05em, transparent .05em);
+  background-image: -moz-linear-gradient(0deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px), -moz-linear-gradient(#eee .05em, transparent .05em);
+  background-image: -ms-linear-gradient(0deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px), -ms-linear-gradient(#eee .05em, transparent .05em);
+  background-image: -o-linear-gradient(0deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px), -o-linear-gradient(#eee .05em, transparent .05em);
+  background-image: linear-gradient(0deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px), linear-gradient(#eee .05em, transparent .05em);
+  
+}
+.conjunto{
+    align-items: center;
+    position: absolute;
+    height: 100%;
+    width: 4%;
+    z-index: 3;
+}
+.brazoprincipal{
+    margin-left: 15%;
+    margin-right: 15%;
+    position: absolute;
+    background-color: darkgray;
+    height: 100%;
+    width: 70%;
+    z-index: 1;
+    border: black 1px solid;
+}
+.plantador{
+    top: 88%;
+    position: absolute;
+    height: 10%;
+    width: 100%;
+    z-index: 2;
+    background-color: black;
+}
+.seleccion{
+    height: 80%;
+    width: 15%;
+    display: flex;
+}
+.title {
+    margin: auto auto;
+    font-size: 2em;
+    margin-bottom: 10%;
+}
+div{
+    text-align: center;
+}
+.contenedor{
+    margin: auto auto;
+}
+button{
+    width: 40%;
+}
+.papas{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+}
+.papa{
+    position: absolute;
+    height: 20px;
+    // background-color: red;
+    background: url("/images/paparealista.png");
+    background-size: cover;
+    width: 20px;
+    // border: black 1px solid;
+    display: none;
+
+}
